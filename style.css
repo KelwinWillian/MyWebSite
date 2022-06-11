@@ -1,0 +1,59 @@
+body {
+    background-color: #f7f7f7; /*Da a cor de fundo da página*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*Deixa as fontes que contenham o corpo da página como as descritas*/
+    max-width: 900px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.photo_selfie {
+    border: #505050 solid 2px;
+    border-radius: 50%;
+    width: 20%;
+}
+
+#title .subtitle .post_title {
+    color: #505050;
+}
+
+#title {
+    font-size: 35px; /* Deixa o título com o tamanho de 35 pixels*/
+    text-transform: uppercase; /* Transforma o texto, deixando-o com todas as letras maiúsculas*/
+}
+
+a {
+    text-decoration: underline; /*Adiciona uma linha sublinhando os links*/
+    color: #505050; /* Deixa os links na cor cinza*/
+}
+
+.post {
+    background: #fff;
+    padding: 10px; /*Espaçamento entre o conteúdo e a borda*/
+    border: 2px solid #505050; /*Borda com largura de 2 pixels, com coloração preta e formato solido*/
+    margin: 10px; /*Espaçamento entre elementos*/
+    border-radius: 3px; /*Arredonda a borda*/
+}
+
+.post_title {
+    margin: 0; /*Zera a margem*/
+    margin-bottom: 15px; /*Atribui 15 pixels apenas no lado inferior da margem como espaçamento*/
+}
+
+.post_content {
+    margin: 0;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.post_image {
+    margin: 0;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.contact_list {
+    list-style-type: none;
+    margin-left: 15px;
+    padding: 10px;
+}
+
